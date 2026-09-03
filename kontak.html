@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bagas - Kontak</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="../index.html" class="brand">
+                <div class="brand-logo">B</div>
+                <span class="gradient-text">Bagas.Dev</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Beranda</a></li>
+                <li><a href="tentang.html" class="nav-link">Tentang Saya</a></li>
+                <li><a href="jaringan.html" class="nav-link">Jaringan Komputer</a></li>
+                <li><a href="iot-arduino.html" class="nav-link">IoT & Arduino</a></li>
+                <li><a href="karya-proyek.html" class="nav-link">Galeri Proyek</a></li>
+                <li><a href="kontak.html" class="nav-link active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-title-section">
+            <span class="badge">Komunikasi</span>
+            <h1 class="page-title">Formulir Kontak</h1>
+            <p class="page-subtitle">Kirimkan pertanyaan, tawaran kolaborasi, atau saran melalui formulir di bawah ini.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="glass-card">
+                <h3 style="margin-bottom: 20px;">Informasi Kontak</h3>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon">✉</div>
+                    <div class="contact-detail">
+                        <h4>Email Sekolah</h4>
+                        <p>bagas.rpl@sekolah.sch.id</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-detail">
+                        <h4>Lokasi Kota</h4>
+                        <p>Mojokerto, Jawa Timur</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">🏫</div>
+                    <div class="contact-detail">
+                        <h4>Instansi</h4>
+                        <p>SMK Peminatan RPL / Informatika</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nama" class="form-label">Nama Pengirim</label>
+                            <input type="text" id="nama" name="nama" class="form-control" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="nama@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="kategori" class="form-label">Kategori Pesan</label>
+                        <select id="kategori" name="kategori" class="form-control" required>
+                            <option value="Pertanyaan">Pertanyaan</option>
+                            <option value="Kolaborasi">Kolaborasi</option>
+                            <option value="Saran">Saran</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan" class="form-label">Pesan Teks</label>
+                        <textarea id="pesan" name="pesan" rows="5" class="form-control" placeholder="Tuliskan isi pesan Anda di sini..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-text">&copy; 2026 Bagas (Portofolio Informatika Kelas XII). Hak Cipta Dilindungi.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
